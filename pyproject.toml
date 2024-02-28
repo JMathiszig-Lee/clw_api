@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "clw-api"
+version = "0.1.0"
+description = "A Package for interacting with the clw api"
+authors = ["Jakob Mathiszig-Lee <jakob@mathisziglee.co.uk>"]
+license = "GPL v3"
+readme = "README.md"
+packages = [{include = "clw_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "*"
+pydantic = "*"
+
+[tool.poetry.group.dev.dependencies]
+flake8-ruff = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
