@@ -163,3 +163,6 @@ cython_debug/
 #project specific
 access_token.json
 test.py
+staff.xml
+googlecreds.json
+token.pickle

@@ -11,6 +11,7 @@ packages = [{include = "clw_api"}]
 python = "^3.12"
 requests = "*"
 pydantic = "*"
+gcsa = "^2.2.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8-ruff = "^0.3.0"
